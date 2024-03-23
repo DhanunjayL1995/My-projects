@@ -1,0 +1,70 @@
+how to create and edit a file in linux              :vi filename 
+then you will enter into file. 
+then to write something to file press               :i(insert) 
+then to save & quit file                            :wq
+
+like "vi" if we want to edit in modern way we use   :nano newfilename
+
+make new directory or create new folder             :mkdir newfolder
+to remove folder                                    :rmdir newfolder or -rm rf folder
+
+how to change directory                             :cd path
+how to go back one folder                           :cd ..
+how to go back multiple folders                     :cd ../..
+how to go to root directory                         :cd /
+
+difference between absolute(while changing directory giving path 
+from root ex home/dhanu/newfolder/newfolder) and relative path ex newfolder/
+
+how to copy and paste file from one folder to another -cp mini.csv newfolder/
+
+how to copy content from one file to another -cp newfile.csv newfile_copy.csv
+
+how to cut paste one file from one to another folder -mv newfile newfolder/
+
+how to rename a file -mv newfile newfile_modified
+how to read top 5 line from a file -head -5 test.csv
+how to read bottom 5 lines(latest) -tail -5 test.csv
+how to sort a file content -sort test.txt
+for reverse sorting -sort -r test.txtuniq
+how to display unique content from a file -sort test.txt | uniq
+how to split a file into number of files -split -l 3 test.txt
+
+how to search a word and display matching content from file -grep "word" test.txt
+
+how to search multiple words - egrep "word1"|"word2" test.txt
+how to create and edit a file in linux              :vi filename 
+then you will enter into file. 
+then to write something to file press               :i(insert) 
+then to save & quit file                            :wq
+
+like "vi" if we want to edit in modern way we use   :nano newfilename
+
+make new directory or create new folder             :mkdir newfolder
+to remove folder                                    :rmdir newfolder or -rm rf folder
+
+how to change directory                             :cd path
+how to go back one folder                           :cd ..
+how to go back multiple folders                     :cd ../..
+how to go to root directory                         :cd /
+
+difference between absolute(while changing directory giving path 
+from root ex home/dhanu/newfolder/newfolder) and relative path ex newfolder/
+
+how to copy and paste file from one folder to another -cp mini.csv newfolder/
+
+how to copy content from one file to another -cp newfile.csv newfile_copy.csv
+
+how to cut paste one file from one to another folder -mv newfile newfolder/
+
+how to rename a file -mv newfile newfile_modified
+how to read top 5 line from a file -head -5 test.csv
+how to read bottom 5 lines(latest) -tail -5 test.csv
+how to sort a file content -sort test.txt
+for reverse sorting -sort -r test.txtuniq
+how to display unique content from a file -sort test.txt | uniq
+how to split a file into number of files -split -l 3 test.txt
+
+how to search a word and display matching content from file -grep "word" test.txt
+
+how to search multiple words - egrep "word1"|"word2" test.txt
