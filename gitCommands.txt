@@ -1,0 +1,52 @@
+github ssh           : git@github.com:DhanunjayL1995/My-projects.git
+github https         : https://github.com/DhanunjayL1995/My-projects.git
+
+
+
+
+
+cmd commands
+
+find git vesrion      : git --version
+find git configuration: git config
+                      : git config --global --list
+                      : git config --global user.name "Dhanunjay"
+                      : git config --global user.email "dhanu140695@gmail.com"
+create local git repo : git init
+find existed git repo : git status
+how to delete git repo: rm -rf .gitgit ad
+
+if we create git repo with above commands we get with as master but we dont want it so
+
+create local git repo : git init -b main
+to add file to staging: git add firstcode.txt
+to find no of commits : git log
+how to commit         : git commit -m "here you can mention what you have done and made changes "
+
+evry time you do changes you have to do staging then commit, 
+to do this you need follow above same procedure but if you want to skip staging and do direct commit 
+
+you have execute this : git commit -a -m "skipping staging area"
+
+if you want to find what is modified from last version when it is working directory
+                      : git diff
+incase if the file already moved to staging area then 
+                      : git diff --staged
+if you want to add all file to staging (we use .)
+                      : git add .
+if some file by mistake you add commit then want to remove from git
+                      : git rm --cached passwords
+once you remove this file you have to commit as well
+
+
+after creating Github account, to have an permenenat connection, we can use SSH key.
+how to create SSH key : ssh-kegen -o
+key will be generated in defalult folder then :ls -a find hidden folders then you will find id_rsa.pub 
+file and copy the content from it then open github in browser then settings then ssh key 
+enter this key.
+
+connection to Github  :git remote add origin git@github.com:DhanunjayL1995/My-projects.git
+push local to remote  :git push -u origin main
+
+
+
